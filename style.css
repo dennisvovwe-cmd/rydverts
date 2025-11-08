@@ -75,7 +75,7 @@ nav {
 .content .text-section h1 {
   font-family: Agrandir;
   font-weight: 600;
-  font-size: 4rem;
+  font-size: 3.5rem;
   line-height: 125%;
   color: var(--white-color);
   margin-bottom: 0;
@@ -89,7 +89,7 @@ nav {
 
 .content .text-section p {
   font-family: Agrandir;
-  font-size: 1.3rem;
+  font-size: 1rem;
   color: #ccc;
   margin-bottom: 20px;
 }
@@ -110,10 +110,11 @@ nav {
 }
 .content .image-section img {
   height: auto;
-  width: 608px;
+  width: 550px;
   border-radius: 8px;
   transform: rotate(1deg);
 }
+
 
 
 
