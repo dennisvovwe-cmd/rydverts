@@ -65,7 +65,7 @@ nav {
   width: 100%;
   align-items: center;
   justify-content: space-between;
-  margin-left:50px;
+  margin-right:50px;
 }
 .text-section {
   position: absolute; /* overlay on top */
@@ -116,6 +116,7 @@ nav {
   border-radius: 8px;
   transform: rotate(1deg);
 }
+
 
 
 
