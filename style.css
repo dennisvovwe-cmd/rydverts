@@ -98,9 +98,7 @@ nav {
   width: 790px;
 }
 .image-section {
-  padding-bottom: 5%;
-  padding-left: 52%;
-  flex: 2;
+    flex: 2;
   text-align: right;
   position: relative;
   z-index: 1;
@@ -110,11 +108,14 @@ nav {
   vertical-align: middle;
 }
 .content .image-section img {
+  padding-bottom: 5%;
+  padding-left: 52%;
   height: auto;
   width: 550px;
   border-radius: 8px;
   transform: rotate(1deg);
 }
+
 
 
 
