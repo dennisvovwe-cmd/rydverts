@@ -51,7 +51,7 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-top: 8%;
+  margin-top: 4%;
 }
 .social-icons {
   display: flex;
@@ -114,5 +114,6 @@ nav {
   border-radius: 8px;
   transform: rotate(1deg);
 }
+
 
 
