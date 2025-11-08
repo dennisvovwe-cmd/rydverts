@@ -1,0 +1,115 @@
+@font-face {
+  font-family: Agrandir;
+  src: url(fonts/Agrandir-Regular.otf);
+}
+:root {
+  --green-color: #274602;
+  --lightgreen-color: #c1f11d;
+  --black-color: #000000;
+  --white-color: #ffffff;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  height: 100%;
+  background: black;
+  font-family: "Agrandir", sans-serif;
+  color: #fff;
+  overflow: hidden;
+}
+
+.btn {
+  padding: 12px 32px;
+  border-radius: 102px;
+  color: var(--green-color);
+  display: inline-block;
+  font-size: 32px;
+  font-weight: bold;
+  background-color: var(--lightgreen-color);
+  text-decoration: none;
+}
+
+.btn:hover {
+  background-color: #d9ff33;
+}
+.wrapper {
+  max-width: 1130px;
+  margin: 0 8%;
+}
+header {
+  background-color: var(--black-color);
+  height: 100vh;
+  width: 100%;
+  margin-top: 8%;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.social-icons {
+  display: flex;
+  gap: 26px;
+  margin: 0%;
+}
+.content {
+  display: flex;
+  height: 100vh;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+}
+.text-section {
+  top: 32%;
+  position: absolute; /* overlay on top */
+  transform: translateY(-5%);
+  z-index: 3;
+  max-width: 100%; /* keep text compact */
+}
+.content .text-section h1 {
+  font-family: Agrandir;
+  font-weight: 600;
+  font-size: 4rem;
+  line-height: 125%;
+  color: var(--white-color);
+  margin-bottom: 0;
+}
+.highlight {
+  font-family: Agrandir;
+  background-color: var(--lightgreen-color);
+  color: var(--green-color);
+  padding: 0 6px;
+}
+
+.content .text-section p {
+  font-family: Agrandir;
+  font-size: 1.3rem;
+  color: #ccc;
+  margin-bottom: 20px;
+}
+.content .text-section {
+  width: 790px;
+}
+.image-section {
+  padding-bottom: 5%;
+  padding-left: 52%;
+  flex: 2;
+  text-align: right;
+  position: relative;
+  z-index: 1;
+}
+.content .image-section {
+  align-self: flex-end;
+  vertical-align: middle;
+}
+.content .image-section img {
+  height: auto;
+  width: 608px;
+  border-radius: 8px;
+  transform: rotate(1deg);
+}
