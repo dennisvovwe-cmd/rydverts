@@ -40,6 +40,7 @@ body {
 }
 .wrapper {
   max-width: 1130px;
+  height:100vh;
   margin: 0 8%;
 }
 header {
@@ -113,6 +114,7 @@ nav {
   border-radius: 8px;
   transform: rotate(1deg);
 }
+
 
 
 
