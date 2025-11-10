@@ -97,7 +97,7 @@ nav {
   width: 790px;
 }
 .image-section {
-  padding-top:30%;
+  padding-top:50%;
   padding-left: 60%;
   flex: 2;
   text-align: right;
@@ -114,6 +114,7 @@ nav {
   border-radius: 8px;
   transform: rotate(-4deg);
 }
+
 
 
 
