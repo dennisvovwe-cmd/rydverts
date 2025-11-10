@@ -110,11 +110,12 @@ nav {
   vertical-align: middle;
 }
 .content .image-section img {
+ width: clamp(260px, 40vw, 500px);
   height: auto;
-  width: 450px;
   border-radius: 8px;
-  transform: rotate(1deg);
+  transform: rotate(-4deg);
 }
+
 
 
 
