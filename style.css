@@ -106,8 +106,6 @@ nav {
   text-align: right;
   position: relative;
   z-index: 1;
-}
-.content .image-section {
   flex: 1;
   display: flex;
   justify-content: flex-end;
@@ -118,6 +116,7 @@ nav {
   border-radius: 8px;
   transform: rotate(-4deg);
 }
+
 
 
 
