@@ -105,7 +105,7 @@ nav {
   flex: 1;
   display: flex;
   justify-content: flex-end;
-  margin-bottom:150px;
+  margin-bottom:130px;
 }
 .content .image-section img {
  width: clamp(660px, 40vw, 500px);
@@ -113,6 +113,7 @@ nav {
   border-radius: 8px;
   transform: rotate(1deg);
 }
+
 
 
 
