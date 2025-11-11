@@ -110,7 +110,7 @@ nav {
   flex: 1;
   display: flex;
   justify-content: flex-end;
-  margin-bottom:30px;
+  margin-bottom:80px;
 }
 .content .image-section img {
  width: clamp(260px, 40vw, 500px);
@@ -118,6 +118,7 @@ nav {
   border-radius: 8px;
   transform: rotate(-4deg);
 }
+
 
 
 
