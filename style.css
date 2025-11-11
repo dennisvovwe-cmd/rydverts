@@ -110,15 +110,16 @@ nav {
   flex: 1;
   display: flex;
   justify-content: flex-end;
+  padding-left:50px;
   margin-bottom:150px;
 }
 .content .image-section img {
  width: clamp(260px, 40vw, 500px);
   height: auto;
-  margin-left:50px;
   border-radius: 8px;
   transform: rotate(-4deg);
 }
+
 
 
 
