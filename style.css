@@ -105,7 +105,6 @@ nav {
   flex: 1;
   display: flex;
   justify-content: flex-end;
-  margin-bottom:150px;
 }
 .content .image-section img {
   position:absolute;
@@ -114,6 +113,7 @@ nav {
   border-radius: 8px;
   transform: rotate(1deg);
 }
+
 
 
 
