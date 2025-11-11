@@ -77,7 +77,7 @@ nav {
   transform: translateY(-5%);
   z-index: 3;
   max-width: 100%; /* keep text compact */
-  margin-bottom:100px;
+  margin-bottom:130px;
 }
 .content .text-section h1 {
   font-family: Agrandir;
@@ -104,6 +104,7 @@ nav {
   width: 790px;
 }
 .image-section {
+  max-width:100%;
   position: relative;
   z-index: 1;
   flex: 1;
@@ -118,6 +119,7 @@ nav {
   border-radius: 8px;
   transform: rotate(-4deg);
 }
+
 
 
 
