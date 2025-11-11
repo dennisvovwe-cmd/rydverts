@@ -105,13 +105,15 @@ nav {
   flex: 1;
   display: flex;
   justify-content: flex-end;
+  margin-bottom:150px;
 }
 .content .image-section img {
- width: clamp(460px, 40vw, 500px);
+ width: clamp(660px, 40vw, 500px);
   height: auto;
   border-radius: 8px;
   transform: rotate(1deg);
 }
+
 
 
 
