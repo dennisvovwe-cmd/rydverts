@@ -108,11 +108,12 @@ nav {
   margin-bottom:130px;
 }
 .content .image-section img {
- width: clamp(660px, 40vw, 500px);
+ width: clamp(560px, 40vw, 500px);
   height: auto;
   border-radius: 8px;
   transform: rotate(1deg);
 }
+
 
 
 
