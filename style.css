@@ -1,0 +1,148 @@
+@font-face {
+  font-family: Agrandir;
+  src: url("/fonts/Agrandir-Regular.otf") format("opentype");
+}
+
+:root {
+  --green: #274602;
+  --lightgreen: #c1f11d;
+  --black: #000000;
+  --white: #ffffff;
+}
+
+/* RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--black);
+  font-family: "Agrandir", sans-serif;
+  color: var(--white);
+  overflow-x: hidden;
+}
+
+/* CONTAINER */
+.header-section {
+  width: 90%;
+  max-width: 1300px;
+  margin: 1% auto;
+  /* border: 2px solid white; */
+}
+
+/* NAVIGATION */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 50px;
+  margin-top: 20px;
+  margin-left: 7%;
+  margin-right: 14%;
+}
+
+.logo img {
+  width: 130px;
+}
+
+.socials-link {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 22px;
+}
+
+.socials-link img {
+  width: 45px;
+}
+
+/* MAIN CONTENT */
+.content {
+  position: relative;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* border: 2px solid white; */
+  flex-wrap: wrap;
+}
+
+/* BUTTON */
+.btn {
+  background-color: var(--lightgreen);
+  color: var(--green);
+  padding: 16px 40px;
+  border-radius: 55px;
+  text-decoration: none;
+  font-family: Agrandir;
+  font-size: 1.5rem;
+  font-weight: bold;
+  display: inline-block;
+  transition: all 0.3s ease;
+  position: absolute;
+  top: 80%;
+  left: 6%;
+  transform: translateY(690%);
+}
+
+.btn:hover {
+  background-color: #d9ff33;
+}
+/*.text-section {
+  position: absolute;
+  top: 10%;
+  left: 0%;
+  transform: translateY(-5%);
+  border: 2px solid white;
+  z-index: 2;
+  width: 80%;
+}*/
+
+h1 {
+  font-family: Agrandir;
+  font-size: 3.7rem;
+  line-height: 1.4;
+  margin-bottom: 25px;
+  font-weight: 600;
+  position: absolute;
+  top: 33%;
+  left: 6%;
+  transform: translateY(5%);
+  /* border: 2px solid white; */
+  z-index: 2;
+}
+
+.highlight {
+  font-family: Agrandir;
+  background-color: #c6ff00;
+  color: #275c1d;
+  padding: 0 6px;
+}
+p {
+  font-family: Agrandir;
+  font-size: 1.5rem;
+  color: #ccc;
+  position: absolute;
+  top: 88%;
+  left: 6%;
+  transform: translateY(600%);
+  /*border: 2px solid white;*/
+}
+/*.image-section {
+  position: relative;
+  border: 2px solid white;
+  transform: translateY(-3%);
+  /* border: 1px solid white; */
+/* max-width: 100%; */
+/*width: 50%;
+}*/
+.keke {
+  width: 47%;
+  position: absolute;
+  right: 0%;
+  left: 46%;
+  transform: rotate(-2deg);
+  transform: translateY(42%);
+  /* border: 2px solid white; */
+}
