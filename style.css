@@ -1,5 +1,5 @@
 @font-face {
-  font-family: Agrandir;
+  font-family: "Agrandir";
   src: url("/fonts/Agrandir-Regular.otf") format("opentype");
 }
 
@@ -146,3 +146,4 @@ p {
   transform: translateY(42%);
   /* border: 2px solid white; */
 }
+
