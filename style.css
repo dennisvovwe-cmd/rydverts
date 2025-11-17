@@ -132,6 +132,9 @@ p {
 }
 /* Responsive */
 @media (max-width: 500px) {
+  body{
+    overflow-x: hidden;
+  }
   :root {
     --green: #274602;
     --lightgreen: #c1f11d;
@@ -188,10 +191,10 @@ p {
     top: 80%;
     left: 6%;
     z-index: 2;
-    transform: translateY(930%);
+    transform: translateY(950%);
   }
   .keke {
-    width: 75%;
+    width: 65%;
     position: absolute;
     top: 0;
     left: 6%;
@@ -200,4 +203,5 @@ p {
     /* border: 2px solid white; */
   }
 }
+
 
