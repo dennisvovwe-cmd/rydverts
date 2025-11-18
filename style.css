@@ -211,10 +211,11 @@ p {
     top: 0;
     left: 6%;
     transform: rotate(-2deg);
-    transform: translateY(130%);
+    transform: translateY(150%);
     /* border: 2px solid white; */
   }
 }
+
 
 
 
