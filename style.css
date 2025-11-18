@@ -160,7 +160,7 @@ p {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 50px;
+    gap: 55px;
     margin-top: 10%;
   }
   .logo img {
@@ -203,7 +203,7 @@ p {
     top: 80%;
     left: 6%;
     z-index: 2;
-    transform: translateY(990%);
+    transform: translateY(970%);
   }
   .keke {
     width: 75%;
@@ -211,10 +211,11 @@ p {
     top: 0;
     left: 6%;
     transform: rotate(-2deg);
-    transform: translateY(160%);
+    transform: translateY(180%);
     /* border: 2px solid white; */
   }
 }
+
 
 
 
