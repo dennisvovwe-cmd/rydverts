@@ -194,7 +194,7 @@ p {
     top: 88%;
     left: 6%;
     padding: 5px 5px;
-    transform: translateY(380%);
+    transform: translateY(480%);
   }
   .btn {
     font-size: 1.2rem;
@@ -203,7 +203,7 @@ p {
     top: 80%;
     left: 6%;
     z-index: 2;
-    transform: translateY(930%);
+    transform: translateY(990%);
   }
   .keke {
     width: 75%;
@@ -215,5 +215,6 @@ p {
     /* border: 2px solid white; */
   }
 }
+
 
 
