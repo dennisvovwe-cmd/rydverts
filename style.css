@@ -201,11 +201,11 @@ p {
   }
   p {
     font-size: 1.1rem;
-    padding: 5px 6px;
+    padding: 5px 11px;
     position: absolute;
     top: 80%;
     left: 6%;
-    transform: translateY(400%);
+    transform: translateY(450%);
   }
   .btn {
     font-size: 1.2rem;
@@ -266,6 +266,7 @@ p {
     transform: translateY(115%);
   }
 }
+
 
 
 
