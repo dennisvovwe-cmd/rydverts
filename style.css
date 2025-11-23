@@ -162,7 +162,7 @@ p {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 60px;
+    gap: 45px;
     margin-top: 10%;
   }
   .logo img {
@@ -202,11 +202,11 @@ p {
   }
   p {
     font-size: 1.4rem;
-    padding: 5px 6px;
+    padding: 5px 7px;
     position: absolute;
     top: 80%;
     left: 6%;
-    transform: translateY(400%);
+    transform: translateY(350%);
   }
   .btn {
     font-size: 1.2rem;
@@ -267,5 +267,6 @@ p {
     transform: translateY(115%);
   }
 }
+
 
 
