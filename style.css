@@ -223,7 +223,7 @@ p {
     top: 0;
     left: 6%;
     transform: rotate(-5deg);
-    transform: translateY(125%);
+    transform: translateY(115%);
     /* border: 2px solid white; */
   }
 }
@@ -267,6 +267,7 @@ p {
     transform: translateY(115%);
   }
 }
+
 
 
 
