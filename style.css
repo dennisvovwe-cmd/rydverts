@@ -215,7 +215,7 @@ p {
     top: 80%;
     left: 5%;
     z-index: 3;
-    transform: translateY(1050%);
+    transform: translateY(1030%);
   }
   .keke {
     width: 390px;
@@ -267,6 +267,7 @@ p {
     transform: translateY(115%);
   }
 }
+
 
 
 
