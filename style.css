@@ -202,7 +202,7 @@ p {
   }
   p {
     font-size: 1.4rem;
-    padding: 5px 7px;
+    padding: 5px 11px;
     position: absolute;
     top: 80%;
     left: 6%;
@@ -267,6 +267,7 @@ p {
     transform: translateY(115%);
   }
 }
+
 
 
 
