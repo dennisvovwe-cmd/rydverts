@@ -79,6 +79,8 @@ nav {
   font-size: 1.5rem;
   font-weight: bold;
   display: inline-block;
+  outline: none;
+  border: none;
   transition: all 0.3s ease;
   position: absolute;
   top: 80%;
@@ -267,6 +269,7 @@ p {
     transform: translateY(115%);
   }
 }
+
 
 
 
