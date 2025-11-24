@@ -257,7 +257,7 @@ p {
   }
   p {
     font-size: 1.1rem;
-    padding: 5px 16px;
+    padding: 5px 20px;
     transform: translateY(400%);
   }
   .btn {
@@ -269,6 +269,7 @@ p {
     transform: translateY(115%);
   }
 }
+
 
 
 
