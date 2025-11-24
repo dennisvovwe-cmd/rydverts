@@ -257,8 +257,8 @@ p {
   }
   p {
     font-size: 1.1rem;
-    padding: 5px 9px;
-    transform: translateY(450%);
+    padding: 5px 10px;
+    transform: translateY(350%);
   }
   .btn {
     font-size: 1.1rem;
@@ -269,6 +269,7 @@ p {
     transform: translateY(115%);
   }
 }
+
 
 
 
