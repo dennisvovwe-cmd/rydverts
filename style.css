@@ -238,10 +238,10 @@ p {
   }
   p {
     font-size: 1.3rem;
-    padding: 5px 8px;
+    padding: 5px 9px;
   }
   .btn {
-    transform: translateY(950%);
+    transform: translateY(1000%);
   }
   .keke {
     width: 380px;
@@ -269,6 +269,7 @@ p {
     transform: translateY(115%);
   }
 }
+
 
 
 
