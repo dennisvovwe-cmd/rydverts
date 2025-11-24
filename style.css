@@ -258,17 +258,18 @@ p {
   p {
     font-size: 1.1rem;
     padding: 5px 10px;
-    transform: translateY(350%);
+    transform: translateY(400%);
   }
   .btn {
     font-size: 1.1rem;
-    transform: translateY(950%);
+    transform: translateY(1000%);
   }
   .keke {
     width: 341px;
     transform: translateY(115%);
   }
 }
+
 
 
 
