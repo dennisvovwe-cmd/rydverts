@@ -230,11 +230,6 @@ p {
   }
 }
 @media (max-width: 400px) {
- .header-section {
-   width: 90%;
-   max-width: 400px;
-   margin: 2% auto;
-
   nav {
     gap: 45px;
   }
@@ -274,6 +269,7 @@ p {
     transform: translateY(115%);
   }
 }
+
 
 
 
